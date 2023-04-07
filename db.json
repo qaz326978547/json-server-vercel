@@ -1,11 +1,68 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "id":1,
+      "userName":"",
+      "email":"",
+      "password":"",
+      "phone":"",
+      "isAdmin": true
+    }
   ],
+  "carts":[
+    {
+      "id":1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "title":"Midnights",
+      "artist":"Taylor Swift",
+      "Release-Year":"2006",
+      "Language":"English",
+      "price":750,
+      "original-price":800,
+      "star":5,
+      "imageUrl":[],
+      "track-list":[
+      "Lavender Haze","Maroon","Anti-Hero"
+      ,"Snow on the Beach (Feat. Lana Del Rey)","You're on Your Own, Kid",
+      "Midnight Rain","Question...?","Vigilante Shit","Bejeweled","Labyrinth"
+      ],
+      "product-details":{
+        "length":"12.39in",
+        "hight":"0.35in",
+        "width":"12.16in",
+        "weight":"0.73lb"
+      },
+      "customer-reviews":{
+        "name":"",
+        "star":0,
+        "message":"",
+        "time":""
+      }
+    }
+  ],
+
   "posts": [
-    { "id": 1, "title": "json-server22", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server22",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
